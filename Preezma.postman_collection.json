@@ -1,0 +1,297 @@
+{
+	"info": {
+		"_postman_id": "5fb3c658-f3f6-4f79-a015-11b0647a139b",
+		"name": "Preezma",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Clients",
+			"item": [
+				{
+					"name": "Get Clients",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/clients",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"clients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Customer",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"first3456\",\n    \"email\": \"firstwwww@gmail.com\",\n    \"phone\": \"234567\",\n    \"providers\": [\n        {\n            \"id\": \"6021b2fbc079d57ec051577c\"\n        }\n    ]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/clients",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"clients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Single Client",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/clients/601c823e50a20c7e57bb5035",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"clients",
+								"601c823e50a20c7e57bb5035"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Single Client",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\": \"6021c9c1623b657d6d285840\",\n    \"name\": \"first345633eee\",\n    \"email\": \"firstwwww@gmail.com\",\n    \"phone\": \"234567\",\n    \"providers\": [\n        {\n            \"id\": \"6021b2fbc079d57ec051577c\"\n        }\n    ]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/clients/601c824250a20c7e57bb5036",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"clients",
+								"601c824250a20c7e57bb5036"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Single Client",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\": \"6021c9c1623b657d6d285840\",\n    \"name\": \"first345633eee\",\n    \"email\": \"firstwwww@gmail.com\",\n    \"phone\": \"234567\",\n    \"providers\": [\n        {\n            \"id\": \"6021b2fbc079d57ec051577c\"\n        }\n    ]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/clients/601c824250a20c7e57bb5036",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"clients",
+								"601c824250a20c7e57bb5036"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Providers",
+			"item": [
+				{
+					"name": "Get Clients",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/clients",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"clients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Customer",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"first3456\",\n    \"email\": \"firstwwww@gmail.com\",\n    \"phone\": \"234567\",\n    \"providers\": [\n        {\n            \"id\": \"6021b2fbc079d57ec051577c\"\n        }\n    ]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/clients",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"clients"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Single Client",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/providers/601c823e50a20c7e57bb5035",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"providers",
+								"601c823e50a20c7e57bb5035"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Single Client",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\": \"6021c9c1623b657d6d285840\",\n    \"name\": \"first345633eee\",\n    \"email\": \"firstwwww@gmail.com\",\n    \"phone\": \"234567\",\n    \"providers\": [\n        {\n            \"id\": \"6021b2fbc079d57ec051577c\"\n        }\n    ]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/providers/601c824250a20c7e57bb5036",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"providers",
+								"601c824250a20c7e57bb5036"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Single Client",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\": \"6021c9c1623b657d6d285840\",\n    \"name\": \"first345633eee\",\n    \"email\": \"firstwwww@gmail.com\",\n    \"phone\": \"234567\",\n    \"providers\": [\n        {\n            \"id\": \"6021b2fbc079d57ec051577c\"\n        }\n    ]\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/providers/601c824250a20c7e57bb5036",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"providers",
+								"601c824250a20c7e57bb5036"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
